@@ -11,6 +11,7 @@ public class AnimalsFactory {
     public static <T> T getAnimals(ClassLoader loader,
                              Class<?>[] interfaces,
                              InvocationHandler h){
+        System.out.println("");
         return (T)Proxy.newProxyInstance(loader,interfaces,h);
     }
 }
