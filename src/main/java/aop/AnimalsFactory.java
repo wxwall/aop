@@ -12,7 +12,7 @@ public class AnimalsFactory {
                              Class<?>[] interfaces,
                              InvocationHandler h){
         System.out.println("");
-        System.out.println("日了狗");
+        System.out.println("日了狗11111111111");
         return (T)Proxy.newProxyInstance(loader,interfaces,h);
     }
 }
