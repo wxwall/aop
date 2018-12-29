@@ -15,6 +15,9 @@ public class AnimalsFactory {
         System.out.println("test");
         System.out.println("test");
         System.out.println("hello");
+
+
+        System.out.print("我干了一件事");
         return (T)Proxy.newProxyInstance(loader,interfaces,h);
     }
 }
