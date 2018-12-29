@@ -13,6 +13,7 @@ public class AnimalsFactory {
                              InvocationHandler h){
         System.out.println("");
         System.out.println("test");
+        System.out.println("test");
         return (T)Proxy.newProxyInstance(loader,interfaces,h);
     }
 }
