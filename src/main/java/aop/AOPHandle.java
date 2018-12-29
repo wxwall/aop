@@ -28,6 +28,8 @@ public class AOPHandle implements InvocationHandler {
         before();
         Object invoke = method.invoke(obj, args);
         end();
+
+        System.out.println("hello");
         return invoke;
     }
 }
